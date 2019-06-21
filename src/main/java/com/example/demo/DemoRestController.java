@@ -17,6 +17,7 @@ public class DemoRestController {
         HashMap<Object, Object> a = new HashMap<>();
         a.put("demo", "demo json");
         a.put("demo1", "demo json 1");
+        System.out.println("fucionando...");
         return ResponseEntity.ok(a);
     }
 }
